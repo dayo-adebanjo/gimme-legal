@@ -1,0 +1,4 @@
+title: gimme
+# Plain pages, no theme: the layout in _layouts/default.html is the whole site design.
+markdown: kramdown
+exclude: [README.md]
