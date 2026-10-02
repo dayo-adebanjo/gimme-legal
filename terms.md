@@ -6,9 +6,9 @@ permalink: /terms/
 
 # Terms of Service
 
-Effective September 30, 2026
+Effective October 1, 2026
 
-These terms are an agreement between you and the developer of gimme ("gimme," "we," "us"). They cover the gimme iPhone app. By creating an account or using gimme, you agree to them.
+These terms are an agreement between you and the developer of gimme ("gimme," "we," "us"). They cover the gimme iPhone app and the web pages for shared lists. By creating an account, using gimme, or opening a shared list, you agree to them.
 
 ## 1. Who can use gimme
 
@@ -18,7 +18,7 @@ These terms are an agreement between you and the developer of gimme ("gimme," "w
 
 ## 2. What gimme does
 
-gimme lets you save items you want to buy, see their prices, and plan them into a weekly or monthly budget. We don't sell anything. When you buy, you buy from the store, and the store is responsible for the price, shipping, returns, and any dispute about your order.
+gimme lets you save items you want to buy, see their prices, and plan them into a weekly or monthly budget. You can also share a list with a link. We don't sell anything. When you buy, you buy from the store, and the store is responsible for the price, shipping, returns, and any dispute about your order.
 
 ## 3. Prices and product details
 
@@ -34,6 +34,10 @@ You own what you add to gimme, including item names, links, photos, and your dis
 
 Only add photos you have the right to use.
 
+### Lists you share
+
+If you share a list, anyone with the link can see it, and the license above also covers showing that list to them: your display name and each item's name, image, store, link, and price if you leave prices on. The page shows your list as it is when opened. Resetting the link in the share sheet, or deleting your account, stops it. You're responsible for who you send the link to.
+
 ## 6. Rules
 
 Don't use gimme to:
@@ -43,7 +47,9 @@ Don't use gimme to:
 - Save items in bulk with bots or scripts
 - Break any law
 
-We may suspend or close accounts that break these rules. To report a problem, email [gimme.wish@gmail.com](mailto:gimme.wish@gmail.com).
+A list you share must not show anything that is sexually explicit, hateful, harassing, violent, or misleading, or that reveals someone else's private information. This applies to item names, photos, and your display name.
+
+Anyone viewing a shared list can report it with the Report this list link. We may hide a shared list, and suspend or close accounts, that break these rules. To report a problem, email [gimme.wish@gmail.com](mailto:gimme.wish@gmail.com).
 
 ## 7. Other sites and apps
 
