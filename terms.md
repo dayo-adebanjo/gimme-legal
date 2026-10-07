@@ -6,9 +6,9 @@ permalink: /terms/
 
 # Terms of Service
 
-Effective October 1, 2026
+Effective October 6, 2026
 
-These terms are an agreement between you and the developer of gimme ("gimme," "we," "us"). They cover the gimme iPhone app and the web pages for shared lists. By creating an account, using gimme, or opening a shared list, you agree to them.
+These terms are an agreement between you and the developer of gimme ("gimme," "we," "us"). They cover the gimme iPhone app, our website, and the web pages for shared lists. By creating an account, using gimme, or opening a shared list, you agree to them.
 
 ## 1. Who can use gimme
 
@@ -18,11 +18,11 @@ These terms are an agreement between you and the developer of gimme ("gimme," "w
 
 ## 2. What gimme does
 
-gimme lets you save items you want to buy, see their prices, and plan them into a weekly or monthly budget. You can also share a list with a link. We don't sell anything. When you buy, you buy from the store, and the store is responsible for the price, shipping, returns, and any dispute about your order.
+gimme lets you save items you want to buy, see their prices, and plan them into a weekly or monthly budget. You can also search for stores that sell what's in a picture, and share a list with a link. We don't sell anything. When you buy, you buy from the store, and the store is responsible for the price, shipping, returns, and any dispute about your order.
 
 ## 3. Prices and product details
 
-Names, images, and prices are read automatically from store pages. They can be wrong or missing. Prices are read when you save an item and don't update on their own, so they can go out of date. Converted prices use daily reference exchange rates and are estimates. Always check the price at the store before you buy.
+Names, images, and prices are read automatically from store pages. They can be wrong or missing. Prices are read when you save an item and don't update on their own, so they can go out of date. Converted prices use daily reference exchange rates and are estimates. Stores suggested by photo search (**Find this item** and **Search Online**) come from an automated image search run by a third party; they may not sell the exact item, and the price shown is read from their page the same way. Photo search is limited to 10 searches a day. Always check the price at the store before you buy.
 
 ## 4. Budgeting is a tool, not advice
 
@@ -30,7 +30,7 @@ gimme helps you organize planned spending. It isn't financial advice, and you're
 
 ## 5. Your content
 
-You own what you add to gimme, including item names, links, photos, and your display name. You give us a limited, non-exclusive, royalty-free license to store, copy, resize, display, and process that content only to run gimme. That includes sending item details to our service providers, for example to sort items into categories. The license ends when you delete the content or your account, except for copies held in backups for up to 7 days.
+You own what you add to gimme, including item names, links, photos, and your display name. You give us a limited, non-exclusive, royalty-free license to store, copy, resize, display, and process that content only to run gimme. That includes sending item details to our service providers, for example to sort items into categories; sending a picture to our search provider when you tap **Find this item** or **Search Online**; and sending photos and names you add to our moderation provider to check them against the rules below. The license ends when you delete the content or your account.
 
 Only add photos you have the right to use.
 
@@ -49,6 +49,8 @@ Don't use gimme to:
 
 A list you share must not show anything that is sexually explicit, hateful, harassing, violent, or misleading, or that reveals someone else's private information. This applies to item names, photos, and your display name.
 
+Photos you add and names you type are checked automatically. A photo that fails the check isn't saved. A name that fails the check stays on your item but won't show on shared lists; the app tells you when that happens.
+
 Anyone viewing a shared list can report it with the Report this list link. We may hide a shared list, and suspend or close accounts, that break these rules. To report a problem, email [gimme.wish@gmail.com](mailto:gimme.wish@gmail.com).
 
 ## 7. Other sites and apps
@@ -61,7 +63,7 @@ We may add, change, or remove features. gimme is free today. If we ever introduc
 
 ## 9. Ending your account
 
-You can delete your account at any time in the me tab, under Your data. We may suspend or close your account if you break these terms, or if we must to protect other users or comply with the law. Sections 5 (backup copies), 10, 11, 12, and 13 continue to apply after your account ends.
+You can delete your account at any time in the me tab, under Your data. We may suspend or close your account if you break these terms, or if we must to protect other users or comply with the law. Sections 10, 11, 12, and 13 continue to apply after your account ends.
 
 ## 10. Disclaimers
 

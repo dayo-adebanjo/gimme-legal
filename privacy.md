@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-Effective October 1, 2026
+Effective October 6, 2026
 
 gimme is run by its developer ("we," "us"). This policy explains what the gimme app collects, why, and what you can do about it.
 
@@ -19,13 +19,25 @@ gimme is run by its developer ("we," "us"). This policy explains what the gimme 
 - Your email address, from Apple or Google when you sign in. If you use Apple's "Hide My Email," we get a private relay address instead.
 - Your first name from Apple or Google, which we use as your display name. You can change it in the me tab.
 - Your sign-in method and a unique account ID.
+- If you sign in with Apple, a token from Apple that we keep only so we can revoke that sign-in with Apple when you delete your account. The app never sees it.
 
 ### What you save
 
 - Links you save or share into gimme, plus the item name, image, price, currency, store name, and category we read from the page or that you enter.
 - A copy of each item's image, stored by us so it doesn't disappear when the store changes its page.
-- Photos you choose from your photo library to replace an item's image.
+- Photos you choose from your photo library to replace an item's image or to describe an item you enter by hand.
 - Which items you've planned or bought, when, and the price you paid.
+
+### Photo search
+
+Two buttons send a picture to our search partner to find stores that sell what's in it: **Find this item** on a photo you picked when entering an item by hand, and **Search Online** on an item saved from a social post, which sends the part of the post's picture you crop to. Nothing is sent until you tap the button.
+
+- The picture is first checked against our content rules (see below). If it passes, we hold a copy on our servers for up to two minutes so the search partner can fetch it, then delete it as soon as the search returns.
+- We record the time of each search, not the picture, to enforce the limit of 10 searches per day.
+
+### Checks on what you type and upload
+
+Photos you add, item names you type, and changes to your display name can appear on a shared list, so each one is checked by an automated moderation service before it can be shown there. A photo that fails the check is not stored. A name that fails the check stays on your item but is hidden from shared lists, and we keep the result of the check with the item or your profile. Names and images read from a store or social page, and the name your account was created with, are not checked.
 
 ### Your budget and settings
 
@@ -35,6 +47,10 @@ gimme is run by its developer ("we," "us"). This policy explains what the gimme 
 ### Lists you share
 
 - If you share a list, we create a link for it and keep your choices for that link: the whole wishlist or one category, and whether prices show.
+
+### Feedback you send
+
+- If you send feedback from the me tab, we receive your message, your email address, and the app version, as an email to us.
 
 ### Your device
 
@@ -56,6 +72,8 @@ Some stores block our servers from reading their product pages. When that happen
 - To run gimme: sign you in, save and show your items, keep your budget and plan, and sync between your devices.
 - To read product details from the links you save.
 - To sort items into categories automatically.
+- To find stores that sell what's in a picture, when you ask.
+- To check names and photos you add against our content rules before they can appear on a shared list.
 - To convert prices between currencies using daily exchange rates.
 - To keep gimme secure, stop abuse, and fix problems.
 - To answer you when you contact support.
@@ -68,7 +86,7 @@ Sharing is off until you use it. When you tap the share icon and share a link:
 
 - **Anyone with the link can open it**, with no account. Treat the link like the list itself: whoever you send it to can pass it on.
 - **What they see:** your display name, and for each item on the list its name, image, store, link, and (if you leave prices on) price. This includes photos you added yourself.
-- **What they never see:** your email, your budget, what you've planned or bought, or anything else in your account.
+- **What they never see:** your email, your budget, what you've planned or bought, or anything else in your account. Items whose name hasn't passed the content check, or was flagged by it, are left off the page too.
 - **It stays current.** The page shows your list as it is when opened, so items you add appear and items you delete or mark bought disappear.
 - **Stopping it.** Reset link in the share sheet makes the old link stop working. Deleting your account removes all your links.
 
@@ -83,13 +101,17 @@ We use these service providers. They process data only to provide their service 
 | Provider | What it does for gimme | What it receives |
 | --- | --- | --- |
 | Supabase | Database, sign-in, image storage, and the servers that run gimme | Everything in section 1 |
-| Apple and Google | Sign in with Apple and Google | Your sign-in request; they tell us your ID, email, and first name |
-| Anthropic | Picks an item's category | The item's name, store, link, and page description. Not your email or account details |
+| Apple and Google | Sign in with Apple and Google | Your sign-in request; they tell us your ID, email, and first name. Apple also receives our request to revoke your sign-in when you delete your account |
+| Anthropic | Picks an item's category | The item's name, store, and link. Not your email or account details |
+| OpenAI | Checks photos and names you add against our content rules | The photo, item name, or display name being checked. Not your email or account details |
+| Serper | Finds stores that sell what's in a picture, using Google Lens. Only when you tap **Find this item** or **Search Online** | That picture. Not your email or account details |
+| Resend | Delivers email from gimme to us | Your feedback message, email address, and app version, when you send feedback |
 | GitHub | Hosts our website and the shared list page | The IP address of anyone who opens those pages. Not your list or account details |
+| Google Fonts | Supplies the fonts on our website and the shared list page | The IP address of anyone who opens those pages |
 
 Other things to know:
 
-- **Stores.** When you tap Buy, you leave gimme and open the store's site or app. The store follows its own privacy policy.
+- **Stores.** When you tap Buy or Visit, you leave gimme and open the store's site or app. The store follows its own privacy policy.
 - **Exchange rates.** We fetch daily rates from public sources. No personal data is sent.
 - **Legal and safety.** We may disclose data if the law requires it, or to protect people from harm, fraud, or abuse.
 - **If gimme changes hands.** If gimme is sold or transferred, your data may move with it, under this policy or one at least as protective.
@@ -100,7 +122,8 @@ We don't sell your personal information and we don't share it for advertising.
 
 - Your account data stays until you delete your account.
 - When you delete an item, it's removed after a few seconds (the time you have to undo), including its stored image.
-- When you delete your account, we remove your account, items, budgets, stored images, and shared links.
+- A picture you search with is deleted from our servers as soon as the search returns, and in any case within minutes. The record of when you searched stays with your account.
+- When you delete your account, we remove your account, items, budgets, stored images, search records, the Apple sign-in token, and shared links, and we ask Apple to revoke your Sign in with Apple.
 - A shared link works until you reset it or delete your account.
 
 ## 6. Your choices and rights
@@ -117,7 +140,7 @@ For a copy of your data, or anything else, email [gimme.wish@gmail.com](mailto:g
 
 ## 7. Security
 
-Each account's data is separated from every other account's at the database level. Data is encrypted in transit and stored with our providers, images are kept private (they're shown only to you and on lists you share), and no secret keys are kept in the app. No system is perfectly secure, so we can't promise absolute security. If a breach affects you, we'll tell you as the law requires.
+Each account's data is separated from every other account's at the database level. Data is encrypted in transit and stored with our providers, images are kept private (they're shown only to you and on lists you share, and sent to the providers above only for the checks and searches described), and no secret keys are kept in the app. No system is perfectly secure, so we can't promise absolute security. If a breach affects you, we'll tell you as the law requires.
 
 ## 8. Children
 
