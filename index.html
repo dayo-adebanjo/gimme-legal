@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>gimme · Save what you want. Plan what you buy.</title>
+  <meta name="description" content="gimme is an iPhone wishlist app: save links from any store, set a budget, and plan what you buy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #111; --muted: #5C5C58; --snow: #F4F4F1;
+      /* Both backgrounds carry the "gimme" logo and tagline at the top. The content starts
+         below it; the offset is the logo's bottom edge under background-size: cover. */
+      --logo-bottom: max(15vw, 26vh);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    html {
+      background: var(--snow) url("assets/web-bg.png") center top / cover no-repeat;
+      color: var(--ink);
+      font: 15px/1.65 "Space Mono", ui-monospace, monospace;
+    }
+    /* Phones (and anything else held upright) get the portrait artwork. */
+    @media (orientation: portrait) {
+      :root { --logo-bottom: max(46vw, 22vh); }
+      html { background-image: url("assets/mobile-bg.png"); }
+    }
+    body {
+      display: flex; flex-direction: column; align-items: center;
+      min-height: 100dvh;
+      padding: var(--logo-bottom) 16px calc(24px + env(safe-area-inset-bottom));
+      gap: 28px;
+    }
+    .phone {
+      flex: 1 1 auto; min-height: 240px;
+      display: flex; justify-content: center; align-items: flex-start;
+      width: 100%;
+    }
+    .phone img {
+      height: 100%; width: auto; max-width: 70vw;
+      object-fit: contain; object-position: top;
+      filter: drop-shadow(0 18px 24px rgba(17, 17, 17, 0.16));
+    }
+    .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; }
+    .button {
+      font-family: "Silkscreen", monospace; font-size: 15px; text-decoration: none;
+      padding: 12px 22px; min-height: 44px; border: 2px solid var(--ink); border-radius: 12px;
+      background: #fff; color: var(--ink);
+      box-shadow: 4px 4px 0 var(--ink);
+      transition: transform 80ms ease, box-shadow 80ms ease;
+    }
+    .button:hover, .button:focus-visible { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); outline: none; }
+    .button:active { transform: translate(4px, 4px); box-shadow: 0 0 0 var(--ink); }
+    .contact { margin: 0; font-size: 12px; color: var(--muted); text-align: center; }
+    .contact a { color: inherit; }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <img src="assets/screenshot.png" width="896" height="2018" alt="The gimme app opening on an iPhone">
+  </div>
+  <nav class="links" aria-label="Legal">
+    <a class="button" href="privacy/">Privacy Policy</a>
+    <a class="button" href="terms/">Terms of Service</a>
+  </nav>
+  <p class="contact">Questions: <a href="mailto:gimme.wish@gmail.com">gimme.wish@gmail.com</a></p>
+</body>
+</html>
